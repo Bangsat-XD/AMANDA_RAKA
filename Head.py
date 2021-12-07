@@ -56,7 +56,7 @@ def clear():
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
 def banner():
-    print("\n%s    _________ __     \n%s   / ____/ (_) /____  ║ %sDesign By %sBINTANG-XD %s\n%s  / __/ / / / __/ _ \ ║ %sFB %s: %sBintang Tzy\n%s / /___/ / / /_/  __/ ║ %sYT %s: %sBINTANG XD\n%s/_____/_/_/\__/\___/  ║ %sGithub %s: %sGithub.com/\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
+    print("\n%s     ___                   \n  / _ \_______             ® \n / ___/ __/ -_) Multi Brute  ┌──────────────────────────────┐\n/_/  /_/__\__/(_) Force 2.0  │  Script By Daffa-XD  │\n       /  ^ \/ / // /  ^ \   │   •• Github.com/Daffa-XD ••   │\n      /_/_/_/_/\_,_/_/_/_/   └──────────────────────────────┘""")
 def menu_log():
     os.system('rm -rf token.txt')
     clear()
