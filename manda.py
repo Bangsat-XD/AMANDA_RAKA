@@ -137,15 +137,15 @@ def menu_log():
             jalan('%s╚══[%s!%s]◍➤ %sIsi Yang Benar'%(M,P,M,P))
             menu_log()
         elif pf in ['1','01','001','a']:
-            os.system('xdg-open https://facebook.com/GARANGAN.KECHE')
+            os.system('xdg-open https://youtu.be/bszAm4C5ovE')
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
         elif pf in ['2','02','002','b']:
-            os.system('xdg-open https://facebook.com/GARANGAN.KECHE')
+            os.system('xdg-open https://youtu.be/bszAm4C5ovE')
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
         elif pf in ['3','03','003','c']:
-            os.system('xdg-open https://facebook.com/GARANGAN.KECHE')
+            os.system('xdg-open https://youtu.be/bszAm4C5ovE')
             tutor_target()
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
