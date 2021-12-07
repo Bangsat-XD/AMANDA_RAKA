@@ -873,7 +873,7 @@ class crack:
                 except Exception as e:
                     print(("   %s"%e))
                     continue
-                print('%s╠══[%s•%s] %sFor example : jeeck,786786,123456'%(O,P,O,P))
+                print('%s╠══[%s•%s] %sFor example : 786786,123456'%(O,P,O,P))
                 self.pwlist()
                 break
             elif f in ['d','D','1','01','001']:
@@ -1617,7 +1617,7 @@ def started():
     print('%s╠══[%s•%s] %sCrack Is Running...'%(O,P,O,P))
     print('%s╠══[%s•%s] %sAccount [OK] Saved To OK/%s.txt'%(O,P,O,P,tanggal))
     print('%s╠══[%s•%s] %sAccount [CP] Saved To CP/%s.txt'%(O,P,O,P,tanggal))
-    print('%s╚══[%s•%s] %sActivate Airplane Mode [5 Seconds Only] Every 5 Minutes\n'%(O,P,O,P))
+    print('%s╚══[%s•%s] %sIf No Result Turn Off Airplane Mode 1 Second\n'%(O,P,O,P))
 def folder():
     try:os.mkdir("CP")
     except:pass
