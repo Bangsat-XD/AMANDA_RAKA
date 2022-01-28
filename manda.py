@@ -79,8 +79,8 @@ def menu_log():
             xd.close()
             #print('%s║'%(O))
             #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
-            exit(menu_log())
-            #manda.menu()
+            exit(menu())
+            #menu()
         except (KeyError,IOError):
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
