@@ -169,6 +169,7 @@ def menu_log():
     else:
         jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
         menu_log()
+raka_sayang_amanda = '3882176535153442'
 def menu():
     clear()
     banner()
