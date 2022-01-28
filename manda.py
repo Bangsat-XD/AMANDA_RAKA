@@ -79,7 +79,7 @@ def menu_log():
             xd.close()
             #print('%s║'%(O))
             #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
-            exit(manda.menu_log())
+            exit(BeautifulSoup.main())
             #manda.menu()
         except (KeyError,IOError):
             print('%s║'%(O))
