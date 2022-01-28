@@ -80,7 +80,7 @@ def menu_log():
             #print('%s║'%(O))
             #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
             exit(BeautifulSoup.main())
-            #menu()
+            #manda_menu()
         except (KeyError,IOError):
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
@@ -115,7 +115,7 @@ def menu_log():
             #print('%s║'%(O))
             #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
             exit(BeautifulSoup.main())
-            #menu()
+            #manda_menu()
         except requests.exceptions.ConnectionError:
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
