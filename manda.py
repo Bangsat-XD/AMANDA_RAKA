@@ -417,7 +417,7 @@ def publik():
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sID Not Found'%(M,P,M,P))
             menu()
-        r = requests.get("https://graph.facebook.com/%s/friends?limit=%s&access_token=%s"%(it,jid,token))
+        r = requests.get("https://graph.facebook.com/%s/friends?limit=%s&access_token=%s"%(it,bangsat,token))
         id = []
         z = json.loads(r.text)
         xc = (ob["first_name"]+".json").replace(" ","_")
@@ -465,7 +465,7 @@ def pengikut():
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sID Not Found'%(M,P,M,P))
             menu()
-        r = requests.get("https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s"%(it,jid,token))
+        r = requests.get("https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s"%(it,bangsat,token))
         id = []
         z = json.loads(r.text)
         xc = (ob["first_name"]+".json").replace(" ","_")
@@ -513,7 +513,7 @@ def likers():
             print('%s║'%(O))
             jalan('%s╚══[%s!%s] %sID Not Found'%(M,P,M,P))
             menu()
-        r = requests.get("https://graph.facebook.com/%s/likes?limit=%s&access_token=%s"%(it,jid,token))
+        r = requests.get("https://graph.facebook.com/%s/likes?limit=%s&access_token=%s"%(it,bangsat,token))
         id = []
         z = json.loads(r.text)
         xc = (ob["first_name"]+".json").replace(" ","_")
