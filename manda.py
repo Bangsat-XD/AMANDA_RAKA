@@ -70,6 +70,7 @@ def menu_log():
     elif pmu in ['1','01','001','a']:
         defaultua()
         token = input('%s╚══[%s•%s] %sToken : '%(O,P,O,P))
+        jalan('%s╠══[%s•%s] %sPlease Wait...'%(O,P,O,P))
         try:
             x = requests.get("https://graph.facebook.com/me?access_token=" + token)
             y = json.loads(x.text)
