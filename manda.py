@@ -206,7 +206,7 @@ def menu():
         kunci = ('%s%s%s-%s%s%s-%sXXXXX'%(O,kun[0],P,O,kun[1],P,O))
         pro = ''
         upgrade = 'Ganti License Key'
-        jid = ''
+        bangsat = ''
     except (KeyError,IOError):
         status = 'Pengguna Gratis'
         users = '-'
